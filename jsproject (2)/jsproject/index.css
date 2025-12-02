@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section {
+  height: 400px;
+  width: 350px;
+  border: solid;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+article {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* ! Search the city starts here */
+#search_city {
+  height: 20%;
+  /* border: solid; */
+}
+
+#search_city aside {
+  width: 90%;
+  height: 70%;
+  /* border: solid; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+aside input {
+  width: 80%;
+  height: 70%;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+aside i {
+  font-size: 25px;
+  /* color: red; */
+}
+/* ! Search the city ends here */
+
+/* ! Showing temp starts here */
+
+#show_temp {
+  height: 60%;
+  /* border: solid; */
+  flex-direction: column;
+  justify-content: start;
+}
+#show_temp img {
+  height: 70%;
+  width: 50%;
+}
+
+/* ! Showing temp ends here */
+
+/* ! humidity and wind starts here */
+#h_w {
+  height: 20%;
+  /* border: solid; */
+  justify-content: space-around;
+  font-size: 30px;
+  text-align: center;
+}
+
+#h_w img {
+  height: 40px;
+  width: 40px;
+}
+
+/* ! humidity and wind ends here */
+
+
+
+table,td{
+  border: solid;
+  
+}
+
+td{
+  height: 100px;
+  width: 100px;
+}
+
+table tr:nth-child(odd)>td:nth-child(even),table tr:nth-child(even)>td:nth-child(odd){
+  background-color: black;
+}
